@@ -14,7 +14,7 @@ In this exercise we will refer to objects defined in OBJ format.
 ![image](https://user-images.githubusercontent.com/74857750/149569267-9d085588-8fbc-44cc-b7f4-17b0b22730ee.png)
 
 * The faces of the cube, in each row there are serial numbers of the points in the vertex of the polygon:
-* 
+ 
 ![image](https://user-images.githubusercontent.com/74857750/149569474-55bd0c07-3ad3-4864-9e86-a3c59f6cccae.png)
 
 * In most cases the polygonal queue will use triangles and thus achieve the required accuracy and detail.
