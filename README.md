@@ -10,6 +10,7 @@ Several companies have developed applications for creating three-dimensional bod
 In this exercise we will refer to objects defined in OBJ format.
 
 * For example, the cube with side size 1 can be set as follows:
+
 ![image](https://user-images.githubusercontent.com/74857750/149569267-9d085588-8fbc-44cc-b7f4-17b0b22730ee.png)
 
 * The faces of the cube, in each row there are serial numbers of the points in the vertex of the polygon:
