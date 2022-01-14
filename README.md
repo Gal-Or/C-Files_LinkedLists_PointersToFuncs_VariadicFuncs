@@ -45,4 +45,4 @@ For the purpose of solving the exercise we will define the following structures:
 8. Add valid tests so that the program does not fly if, for example - the obj file is not found.
 
 ## How To Run 
-This project runing on visual studio.
+This project runing on Visual Studio.
