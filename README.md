@@ -9,6 +9,17 @@ In this exercise a number of operations have to be performed on files describing
 Several companies have developed applications for creating three-dimensional bodies in virtual space. Most of them define the body as a collection of polygons that "envelop" it. For this purpose, a large number of points (vertexes) are defined on the body, and in addition, the poles (faces) are defined whose vertices are from the collection of points defined earlier.
 In this exercise we will refer to objects defined in OBJ format.
 
+* For example, the cube with side size 1 can be set as follows:
+![image](https://user-images.githubusercontent.com/74857750/149569267-9d085588-8fbc-44cc-b7f4-17b0b22730ee.png)
+
+* The faces of the cube, in each row there are serial numbers of the points in the vertex of the polygon:
+![image](https://user-images.githubusercontent.com/74857750/149569474-55bd0c07-3ad3-4864-9e86-a3c59f6cccae.png)
+
+* In most cases the polygonal queue will use triangles and thus achieve the required accuracy and detail.
+* ![image](https://user-images.githubusercontent.com/74857750/149569586-96705764-91c1-4d33-ad7f-e9ad7c66681f.png)
+
+
+### File Details
 The file in this format is a text file that contains information required for the visualization of an object, including information about vertexes and faces.
 * Each line in the file that begins with the letter v with three numbers describes a point in space (x, y, z), for example : v   5.3674   0.607756   6.01734 describes a point in place (5.3674, 0.60775, 6 6.01734). For each point, vertex has a serial number that is equal to the number of points defined in the file before the point P plus 1. This number is used in the face definition.
 * Each line that begins with the letter f and is followed by integers depicts a particular polygon (face) using its vertex data. Some data may not appear, but a vertex serial number always appears (appears in bold in the examples below). For example, a triangle with vertices at points whose serial numbers are 1842, 1841, 1835, can take one of the following forms:
@@ -29,12 +40,7 @@ For the purpose of solving the exercise we will define the following structures:
 5. Write a function that receives, Scene points to a function of the type defined in section 4, a string that specifies the type of the print variable, and points to a string. The perform function goes through all the objects in the Scene and performs a reading with the help of the pointer to the function. At the end it prints the string and the sum of all the results. Possible print type INT, DOUBLE, STR, CHAR.
 6. Write functions that save / upload the Scene in a file / text file or binary of the user's choice. There is no specific requirement for the file format as long as reading the saved file produces a proper Scene Back -> void saveScene (Scene * scene, char * fileName, enum FileType type); Scene * loadScene (char * fileName, enum FileType type); . In the loadScene function all the required memory allocations were made in creating all the new structures that make up the newly created scene.
 7. Write a function that frees up all the memory allocated during the construction of the scene -> void freeScene (Scene * scene).
-
-
-
-
-
-
+8. Add valid tests so that the program does not fly if, for example - the obj file is not found.
 
 ## How To Run 
 This project runing on visual studio.
