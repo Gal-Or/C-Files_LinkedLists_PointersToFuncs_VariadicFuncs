@@ -1,0 +1,13 @@
+﻿  object.c
+C:\Users\גל\source\repos\HW3\HW3\object.c(38,29): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\גל\source\repos\HW3\HW3\object.c(47,31): warning C4013: 'calloc' undefined; assuming extern returning int
+C:\Users\גל\source\repos\HW3\HW3\object.c(132,14): warning C4098: 'addFace': 'void' function returning a value
+  scene.c
+C:\Users\גל\source\repos\HW3\HW3\object.c(210,6): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\גל\source\repos\HW3\HW3\scene.c(13,31): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\גל\source\repos\HW3\HW3\scene.c(52,24): warning C4013: 'calloc' undefined; assuming extern returning int
+C:\Users\גל\source\repos\HW3\HW3\scene.c(67,14): warning C4098: 'perform': 'void' function returning a value
+C:\Users\גל\source\repos\HW3\HW3\scene.c(83,6): warning C4013: 'free' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\גל\source\repos\HW3\HW3\scene.c(48,7): warning C4101: 'c': unreferenced local variable
+  HW3.vcxproj -> C:\Users\גל\source\repos\HW3\Debug\HW3.exe
